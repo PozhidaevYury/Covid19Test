@@ -23,7 +23,7 @@ def test_covid(app):
 
     app \
         .covid_page() \
-        .go_to_prolongation_report()
+        .go_to_prolongation_docs()
 
     app \
         .support_page() \
